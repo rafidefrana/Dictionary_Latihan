@@ -49,6 +49,7 @@ body {
   outline: none;
   color: #ffffff;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .result {
@@ -102,4 +103,9 @@ body {
 .error {
   margin-top: 80px;
   text-align: center;
+}
+
+.search-box button:active {
+  color: #ae9cff;
+  background-color: #fff;
 }
